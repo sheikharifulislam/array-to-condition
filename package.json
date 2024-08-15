@@ -1,6 +1,7 @@
 {
     "name": "array-to-condition",
     "version": "1.0.0",
+    "private": "false",
     "type": "module",
     "description": "This a condition parser package. you want generate a condition to the array. It useful when you want to add condition on the json property value",
     "main": "dist/index.js",
