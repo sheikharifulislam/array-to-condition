@@ -2,7 +2,7 @@
     "name": "array-to-condition",
     "version": "1.0.0",
     "type": "module",
-    "description": "",
+    "description": "This a condition parser package. you want generate a condition to the array. It useful when you want to add condition on the json property value",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
@@ -30,5 +30,13 @@
         "rollup": "^4.20.0",
         "tslib": "^2.6.3",
         "typescript": "^5.5.4"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sheikharifulislam/array-to-condition.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sheikharifulislam/array-to-condition/issues"
+    },
+    "homepage": "https://github.com/sheikharifulislam/array-to-condition#readme"
 }
