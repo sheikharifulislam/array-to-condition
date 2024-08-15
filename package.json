@@ -1,0 +1,34 @@
+{
+    "name": "array-to-condition",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c --watch & nodemon"
+    },
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.esm.js",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "keywords": [],
+    "author": "Sheikh Ariful Islam",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "nodemon": "^3.1.4",
+        "rollup": "^4.20.0",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.4"
+    }
+}
