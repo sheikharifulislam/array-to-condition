@@ -1,7 +1,7 @@
-import terser from "@rollup/plugin-terser";
-import typescript from "@rollup/plugin-typescript";
+const terser = require("@rollup/plugin-terser");
+const typescript = require("@rollup/plugin-typescript");
 
-export default {
+module.exports = {
     input: "src/index.ts",
     output: [
         {
