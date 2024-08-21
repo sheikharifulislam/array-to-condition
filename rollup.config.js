@@ -10,8 +10,8 @@ export default {
             sourcemap: false,
         },
         {
-            file: "dist/index.esm.js",
-            format: "esm",
+            file: "dist/index.es.js",
+            format: "es",
             sourcemap: false,
         },
     ],
