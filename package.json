@@ -1,10 +1,11 @@
 {
     "name": "array-to-condition",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "type": "module",
     "description": "This a condition parser package. you want generate a condition to the array. It useful when you want to add condition on the json property value",
     "main": "dist/index.js",
-    "module": "dist/index.esm.js",
+    "module": "dist/index.es.js",
+    "require": "",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "rollup -c",
@@ -15,7 +16,7 @@
     ],
     "exports": {
         ".": {
-            "import": "./dist/index.esm.js",
+            "import": "./dist/index.es.js",
             "require": "./dist/index.js",
             "types": "./dist/index.d.ts"
         }
