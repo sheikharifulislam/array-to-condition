@@ -8,9 +8,9 @@ export type Operator = LogicalOperator | BitwiseOperator;
 export type Condition = [Expression, Operator, Expression];
 export type TODO = any;
 
-function stringToCondition({ conditions }) {
+function arrayToCondition(conditions: TODO) {
     const matches = isMatched(conditions);
     return { matches };
 }
 
-export default stringToCondition;
+export default arrayToCondition;
