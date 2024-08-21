@@ -7,18 +7,18 @@ export default {
         {
             file: "dist/index.js",
             format: "cjs",
-            sourcemap: false,
+            sourcemap: true,
         },
         {
             file: "dist/index.es.js",
             format: "es",
-            sourcemap: false,
+            sourcemap: true,
         },
     ],
     plugins: [
         typescript({
-            sourceMap: false,
-            declarationMap: false,
+            sourceMap: true,
+            declarationMap: true,
             tsconfig: "./tsconfig.json",
         }),
         terser(),
